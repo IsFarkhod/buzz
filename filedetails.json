@@ -2,7 +2,6 @@
   "ovpn_file":[
     {"id":0,"file":"
 setenv FORWARD_COMPATIBLE 1
-In, [25.11.2023 20:18]
 client
 server-poll-timeout 4
 nobind

@@ -118,7 +118,7 @@ M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 </tls-crypt>"},{
   "ovpn_file":[
     {"id":1,"file":"
-setenv FORWARD_COMPATIBLE 2
+setenv FORWARD_COMPATIBLE 1
       dev tun
 
 proto tcp

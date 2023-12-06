@@ -2,16 +2,11 @@
   "ovpn_file":[
     {"id":0,"file":"
 setenv FORWARD_COMPATIBLE 1
-
 dev tun
-
 proto tcp
-
-remote 223.134.227.99 1942
-
+remote 116.127.156.121 1549
 cipher AES-128-CBC
 auth SHA1
-
 resolv-retry infinite
 nobind
 persist-key
@@ -53,17 +48,6 @@ emyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=
 -----END CERTIFICATE-----
 
 </ca>
-
-
-###############################################################################
-# The client certificate file (dummy).
-# 
-# In some implementations of OpenVPN Client software
-# (for example: OpenVPN Client for iOS),
-# a pair of client certificate and private key must be included on the
-# configuration file due to the limitation of the client.
-# So this sample configuration file has a dummy pair of client certificate
-# and private key as follows.
 
 <cert>
 -----BEGIN CERTIFICATE-----

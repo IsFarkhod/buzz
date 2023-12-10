@@ -16,7 +16,7 @@
     {"id":6, "app":"com.get.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"Korea Republic","country":"Korea Republic","image":"korea","ip":"222.108.203.44","active":"true","signal":"a"},
+    {"id":0, "file":0, "city":"Korea Republic","country":"Korea Republic","image":"koreaofrepublic","ip":"222.108.203.44","active":"true","signal":"a"},
     {"id":1, "file":1, "city":"United States","country":"United States","image":"unitedstates","ip":"18.218.91.54","active":"true","signal":"a"},
     {"id":2, "file":2, "city":"Japan","country":"Japan","image":"japan","ip":"126.36.229.18","active":"true","signal":"a"}
    

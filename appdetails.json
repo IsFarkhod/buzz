@@ -17,8 +17,8 @@
   ],
   "free":[
     {"id":0, "file":0, "city":"Korea Republic","country":"Korea Republic","image":"korearepublicof","ip":"222.108.203.44","active":"true","signal":"a"},
-    {"id":1, "file":1, "city":"United States","country":"United States","image":"unitedstates","ip":"18.218.91.54","active":"true","signal":"a"}
-
+    {"id":1, "file":1, "city":"United States","country":"United States","image":"unitedstates","ip":"18.218.91.54","active":"true","signal":"a"},
+    {"id":2, "file":2, "city":"Viet Nam","country":"Viet Nam","image":"vietnam","ip":"42.116.165.110","active":"true","signal":"a"}
    
   ]
 }

@@ -134,7 +134,8 @@ M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 -----END RSA PRIVATE KEY-----
 </key>
 
-
+"id":1,"file":1"
+setenv FORWARD_COMPATIBLE 2
 
 dev tun
 

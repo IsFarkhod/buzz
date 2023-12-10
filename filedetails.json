@@ -257,16 +257,13 @@ M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 </tls-crypt>"},
 {
   "id":2,"file":"
- setenv FORWARD_COMPATIBLE 3
+  setenv FORWARD_COMPATIBLE 3
+
 dev tun
-
-proto udp
-
-remote 42.116.165.110 1195
-
+proto tcp
+remote 126.36.229.18 1999
 cipher AES-128-CBC
 auth SHA1
-
 
 resolv-retry infinite
 nobind
@@ -374,6 +371,7 @@ M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 -----END RSA PRIVATE KEY-----
 
 </key>
-</tls-crypt>"}
+</tls-crypt>"
+}
     ]
 }

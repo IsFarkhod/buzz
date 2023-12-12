@@ -2,22 +2,14 @@
   "ovpn_file":[
     {"id":0,"file":"
 setenv FORWARD_COMPATIBLE 1
-
 dev tun
-
-
 
 proto tcp
 
-
-
-remote 222.108.203.44 1826
-
-
+remote 119.237.177.157 1930
 
 cipher AES-128-CBC
 auth SHA1
-
 
 
 resolv-retry infinite
@@ -28,14 +20,6 @@ client
 verb 3
 #auth-user-pass
 
-
-###############################################################################
-# The certificate file of the destination VPN Server.
-# 
-# The CA certificate file is embedded in the inline format.
-# You can replace this CA contents if necessary.
-# Please note that if the server certificate is not a self-signed, you have to
-# specify the signer's root certificate (CA) here.
 
 <ca>
 -----BEGIN CERTIFICATE-----
@@ -132,6 +116,7 @@ va8q4QKBgQCEhLVeUfdwKvkZ94g/GFz731Z2hrdVhgMZaU/u6t0V95+YezPNCQZB
 wmE9Mmlbq1emDeROivjCfoGhR3kZXW1pTKlLh6ZMUQUOpptdXva8XxfoqQwa3enA
 M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 -----END RSA PRIVATE KEY-----
+
 </key>
 </tls-crypt>"},
 

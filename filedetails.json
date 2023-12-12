@@ -119,14 +119,10 @@ M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 
 </key>
 </tls-crypt>"},
-
 {"id":1,"file":"
 setenv FORWARD_COMPATIBLE 2
 
 dev tun
-
-
-
 proto tcp
 
 remote 18.218.91.54 443
@@ -141,6 +137,7 @@ persist-key
 persist-tun
 client
 verb 3
+#auth-user-pass
 
 <ca>
 -----BEGIN CERTIFICATE-----

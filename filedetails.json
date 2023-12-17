@@ -235,11 +235,25 @@ M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
   "id":2,"file":"
   setenv FORWARD_COMPATIBLE 3
 
+
+
 dev tun
+
+
+
 proto tcp
-remote 126.36.229.18 1999
+
+
+
+
+remote 219.100.37.191 443
+
+
+
+
 cipher AES-128-CBC
 auth SHA1
+
 
 resolv-retry infinite
 nobind
@@ -247,8 +261,6 @@ persist-key
 persist-tun
 client
 verb 3
-#auth-user-pass
-
 
 <ca>
 -----BEGIN CERTIFICATE-----
